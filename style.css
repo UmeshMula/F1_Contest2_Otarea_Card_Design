@@ -8,9 +8,12 @@
 }
 header {
   position: fixed;
-  top: 0;
+  top: 20px;
   left: 20px;
   right: 0;
+  box-shadow: 10px 5px 10px 0px #42363640;
+  padding-bottom: none;
+  /* border: 1px solid black; */
 }
 .logo {
   width: 230px;
@@ -103,6 +106,7 @@ nav {
   top: 155px;
   left: 30px;
   border-radius: 50px;
+  margin-top: 50px;
   position: absolute;
 }
 p {
@@ -148,6 +152,7 @@ p {
   text-align: left;
   padding-left: 40px;
 }
+
 .group {
   width: 474.9854431152344px;
   height: 350px;
@@ -155,13 +160,16 @@ p {
   left: 780px;
   position: absolute;
 }
-.blog1 {
-  background-size: auto;
+
+.latest-blog {
   display: flex;
-  background-repeat: no-repeat;
+  width: 90%;
+  left: 49px;
+  box-shadow: 10px 5px 10px 0px #42363640;
+  margin-top: 30px;
 }
 .blog-image {
-  width: 40%;
+  width: 550px;
   height: 400px;
   top: 968px;
   left: 60px;
@@ -222,20 +230,22 @@ p {
 .blog-content {
   display: inline;
   width: 80%;
+  
 }
 
 .image1 {
   width: 420px;
-  height: 380px;
+  height: 300px;
   top: 1450px;
   left: 30px;
   border-radius: 20px;
   position: absolute;
+  box-shadow: 2px 2px 5px 0px black;
 }
 .row1 {
   width: 394.0633544921875px;
   height: 31.65427017211914px;
-  top: 1825px;
+  top: 1745px;
   left: 40px;
   font-size: 25px;
   font-weight: 500;
@@ -250,8 +260,8 @@ p {
 .cont1 {
   width: 394.0633544921875px;
   height: 31.65427017211914px;
-  top: 1875px;
-  left: 10px;
+  top: 1785px;
+  left: 9px;
   position: absolute;
 }
 .cont1 li {
@@ -270,7 +280,7 @@ p {
 .para1 {
   width: 410px;
   height: 71.70661163330078px;
-  top: 1910px;
+  top: 1820px;
   left: 45.088134765625px;
   font-family: Segoe UI;
   font-size: 16px;
@@ -282,7 +292,7 @@ p {
 .see {
   width: 90px;
   height: 23px;
-  top: 1980px;
+  top: 1910px;
   left: 380px;
   position: absolute;
   font-size: 15px;
@@ -294,17 +304,18 @@ p {
 
 .image2 {
   width: 420px;
-  height: 380px;
+  height: 300px;
   top: 1450px;
-  left: 500px;
+  left: 465px;
   border-radius: 20px;
   position: absolute;
+  box-shadow: 2px 2px 5px 0px black;
 }
 .row2 {
   width: 394.0633544921875px;
   height: 31.65427017211914px;
-  top: 1825px;
-  left: 510px;
+  top: 1745px;
+  left: 470px;
   font-size: 25px;
   font-weight: 500;
   line-height: 29px;
@@ -318,8 +329,8 @@ p {
 .cont2 {
   width: 394.0633544921875px;
   height: 31.65427017211914px;
-  top: 1875px;
-  left: 470px;
+  top: 1785px;
+  left: 433px;
   position: absolute;
 }
 .cont2 li {
@@ -333,13 +344,13 @@ p {
   text-align: left;
 }
 #list2 {
-  margin-right: 220px;
+  margin-right: 228px;
 }
 .para2 {
   width: 410px;
   height: 71.70661163330078px;
-  top: 1910px;
-  left: 510px;
+  top: 1820px;
+  left: 470px;
   font-family: Segoe UI;
   font-size: 16px;
   font-weight: 400;
@@ -350,8 +361,8 @@ p {
 .see2 {
   width: 90px;
   height: 23px;
-  top: 1980px;
-  left: 850px;
+  top: 1910px;
+  left: 800px;
   position: absolute;
   font-size: 15px;
   font-weight: 100;
@@ -362,17 +373,18 @@ p {
 
 .image3 {
   width: 420px;
-  height: 380px;
+  height: 300px;
   top: 1450px;
-  left: 950px;
+  left: 900px;
   border-radius: 20px;
   position: absolute;
+  box-shadow: 2px 2px 5px 0px black;
 }
 .row3 {
   width: 394.0633544921875px;
   height: 31.65427017211914px;
-  top: 1825px;
-  left: 960px;
+  top: 1745px;
+  left: 910px;
   font-size: 25px;
   font-weight: 500;
   line-height: 29px;
@@ -386,8 +398,8 @@ p {
 .cont3 {
   width: 394.0633544921875px;
   height: 31.65427017211914px;
-  top: 1875px;
-  left: 925px;
+  top: 1785px;
+  left: 880px;
   position: absolute;
 }
 .cont3 li {
@@ -401,13 +413,13 @@ p {
   text-align: left;
 }
 #list3 {
-  margin-right: 220px;
+  margin-right: 225px;
 }
 .para3 {
   width: 410px;
   height: 71.70661163330078px;
-  top: 1910px;
-  left: 955px;
+  top: 1820px;
+  left: 910px;
   font-family: Segoe UI;
   font-size: 16px;
   font-weight: 400;
@@ -418,8 +430,8 @@ p {
 .see3 {
   width: 90px;
   height: 23px;
-  top: 1980px;
-  left: 1300px;
+  top: 1910px;
+  left: 1245px;
   position: absolute;
   font-size: 15px;
   font-weight: 100;
@@ -433,35 +445,69 @@ p {
   display: flex;
   background-repeat: no-repeat;
   width: 95%;
-  height: 750px;
-  top: 2050px;
-  left: 30px;
+  height: 800px;
+  left: 49px;
   border-radius: 50px;
+  margin-top: 2020px;
+  position: absolute;
+  margin-bottom: 100px;
+}
+
+.pngg {
+  width: 700px;
+  height: 100px;
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  font-weight: 50px;
+  font-size: 37px;
+  line-height: 10px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-style:initial;
+}
+.pngg1 {
+  width: 700px;
+  height: 200px;
+  font-weight: 100px;
+  font-size: 50px;
+  top: 280px;
+  left: 150px;
+  line-height: 20px;
+  margin-top: 50px;
+  color: #000000;
+  font-style: bold;
+}
+.pngg2 {
+  width: 400px;
+  height: 150px;
+  top: 350px;
+  left: 150px;
+  font-weight: 100px;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0em;
+  margin-top: 15px;
+  color: #000000;
+  font-style:inherit;
+}
+
+.footer-image1 {
+  top: 520px;
+  left: 150px;
   position: absolute;
 }
-.footertext1 > p {
-  width: 524.65576171875px;
-  height: 164.01585388183594px;
-  top: 2199.427978515625px;
-  left: 190.18032836914062px;
-  font-size: 40px;
-  font-weight: 300;
-  line-height: 47px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-.footer-button img{
-width: 251px;
-height: 49px;
-top: 30000px;
-left: 185px;
-border-radius: 23.5px;
-position: absolute;
 
+.footer-button {
+  width: 251px;
+  height: 49px;
+  border-radius: 23.5px;
 }
-.final img{
-    width: 751.0999755859375px;
-    height: 397.2685241699219px;
-    top: -4.5684814453125px;
-    position: absolute;
+
+.final {
+  width: 550px;
+  height: 450px;
+  position: absolute;
+  top: 190px;
+  left: 690px;
 }
