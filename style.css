@@ -7,9 +7,10 @@
   margin: none;
   padding: none;
   font-family: "Roboto", sans-serif;
+
 }
 header {
-  width: 97%;
+  width: 1300px;
   height: auto;
   position: fixed;
   top: 20px;
@@ -46,7 +47,7 @@ header.zoom-out {
 
 nav {
   display: flex;
-  width: 90%;
+  width: 1300px;
   margin: 20px;
   padding: 20px 0;
   align-items: center;
@@ -62,7 +63,7 @@ nav {
 
 .navigation li a {
   color: #3b3939;
-  font-weight: 500;
+  font-weight: 500px;
   font-size: 25px;
   text-decoration: none;
   display: inline;
@@ -147,7 +148,7 @@ nav {
   background-size: auto;
   display: flex;
   background-repeat: no-repeat;
-  width: 95%;
+  width: 1300px;
   height: 750px;
   top: 155px;
   left: 30px;
@@ -161,7 +162,7 @@ p {
   height: 300px;
   top: 145px;
   left: 110px;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-size: 45px;
   font-weight: 700;
   line-height: 68px;
@@ -214,7 +215,7 @@ p {
   background-size: auto;
   display: flex;
   background-repeat: no-repeat;
-  width: 1290px;
+  width: 1300px;
   height: 800px;
   top: 980px;
   /* left: 10px; */
@@ -291,7 +292,7 @@ p {
   position: relative;
   top: 1570px;
   left: 40px;
-  width: 390px;
+  width: 400px;
   height: 500px;
   margin-bottom: 20px;
   box-shadow: 2px 2px 5px 0px black;
@@ -303,7 +304,7 @@ p {
   position: relative;
   top: 1570px;
   left: 480px;
-  width: 390px;
+  width: 400px;
   height: 500px;
   margin-bottom: 20px;
   box-shadow: 2px 2px 5px 0px black;
@@ -315,7 +316,7 @@ p {
   position: relative;
   top: 1570px;
   left: 920px;
-  width: 390px;
+  width: 400px;
   height: 500px;
   margin-bottom: 20px;
   box-shadow: 2px 2px 5px 0px black;
@@ -335,7 +336,7 @@ p {
 .image1,
 .image2,
 .image3 {
-  width: 390px;
+  width: 400px;
   height: 300px;
   border-radius: 20px;
 }
@@ -385,9 +386,9 @@ p {
   top: 360px;
   left: 10px;
   font-family: "Roboto", sans-serif;
-  color: #464343;
+  color: #2b2929;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 100px;
   line-height: 25px;
   letter-spacing: 0em;
   /* text-align: justified; */
@@ -426,7 +427,7 @@ p {
   background-size: auto;
   display: flex;
   background-repeat: no-repeat;
-  width: 95%;
+  width: 1300px;
   height: 900px;
   left: 40px;
   border-radius: 30px; /* Updated border-radius to 30px */
@@ -453,7 +454,7 @@ p {
 .text2 {
   width: 800px;
   height: 200px;
-  font-weight: 600;
+  font-weight: 600px;
   font-size: 59px;
   top: 230px;
   left: 145px;
