@@ -479,6 +479,7 @@ p {
   left: 160px;
   font-size: 15px;
   font-weight: 10px;
+  cursor: pointer;
 }
 
 .foot {
