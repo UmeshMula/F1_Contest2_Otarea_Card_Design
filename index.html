@@ -5,111 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Otarea Card</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <div class="header content">
-        <nav>
-          <div class="logo">
-            <img src="Group_23.png" alt="icon" />
-          </div>
-          <div>
-            <ul class="navigation">
-              <li><a href="#" class="item">| Blog</a></li>
-
-              <li>
-                <img src="Polygon 1.png" id="arrow" />
-                <a href="#" class="right1">Archives</a>
-              </li>
-
-              <li>
-                <img src="icons8-cart-64 1.png" id="cart" />
-                <a href="#" class="right2">Store</a>
-              </li>
-              <li>
-                <a href="#">
-                  <button class="btn">Get a Quote</button>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+    <nav>
+      <div class="header-content-1">
+        <div>
+          <img src="images/logo.svg" class="log" alt="icon" />
+        </div>
+        <div class="v-line"></div>
+        <a href="#" class="bit">Blog</a>
       </div>
-    </header>
+
+      <div class="header-content-2">
+        <ul>
+          <li>
+            <a href="#" class="navbtn">
+              <img src="images/polygon.svg" alt="archive" />Archieve</a
+            >
+          </li>
+          <li>
+            <a href="#" class="navbtn"
+              ><img src="images/Cart.svg" alt="cartimg" /> Store</a
+            >
+          </li>
+          <div class="menu-bar"><i class="fa-solid fa-bars"></i></div>
+          <button class="gaq">Get a Quote</button>
+        </ul>
+      </div>
+    </nav>
 
     <!-- Hero Setion -->
     <section class="hero">
-        <p>Let’s Explore<br/> New Possibilities...</p>
-        <div class="search-container">
-          <div class="search-bar">
-            <input type="text" id="search" placeholder="How to, etc..." />
-            <span id="search-label"><a href="#">search</a></span>
-          </div>
+      <div class="s-text">
+        <h1>
+          Let’s Explore<br />
+          New Possibilities...
+        </h1>
+        <div class="search-bar">
+          <img src="images/search.svg" class="s-btn" alt="searchLogo" />
+          <input type="text" id="search" placeholder="How to, etc..." />
+          <button class="search-label" id="search-btn">Search</button>
         </div>
-
         <div class="small">
-          <ul>
-            <li><a href="#">#Design</a></li>
-            <li><a href="#">#Develope</a></li>
-            <li><a href="#">#Market</a></li>
-          </ul>
-        </div>
-        <div class="group">
-          <img src="Group.png" alt="group of peoples" />
+          <p><a href="#">#Design</a></p>
+          <p><a href="#">#Develope</a></p>
+          <p><a href="#">#Market</a></p>
         </div>
       </div>
+      <img src="images/heroimg.svg" alt="group of peoples" id="pep" />
     </section>
 
     <!-- Latest Blog Section -->
-    <section>
-      <div class="latest-blog">
-        <div>
-          <img src="Robo hand.png" class="blog-image" />
+    <section class="latest-blog">
+      <div class="card-img">
+        <img src="images/robo.jpg" alt="robo-finger" />
+      </div>
+      <div class="maintext">
+        <p id="text">Latest post heading sample tex..</p>
+        <div class="row">
+          <p>By Writer Name</p>
+          <p>23 Dec.</p>
         </div>
-        <div class="blog-text">
-          <p id="text">Latest post heading sample tex..</p>
-        </div>
-        <ul class="cont">
-          <li id="list">By Writer Name</li>
-          <li>23 Dec.</li>
-        </ul>
-        <div>
-          <p class="para">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-          </p>
-        </div>
+        <p class="para">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident.
+        </p>
       </div>
     </section>
 
-   <!-- blog cards -->
+    <!-- blog cards -->
 
-   <section>
-    <div class="blog-content">
-      <!-- Blog Card -->
-      <div class="box1">
-        <img src="Rectangle 15.png"  class="image1"/>
-        <div class="info-container">
-          <!-- Post Heading -->
-          <p class="row1">Other post heading sample text...</p>
-          
-          <!-- Date and Author Information -->
-          <div class="date-info">
-            <div class="left-info">Written Name</div>
-            <div class="right-info">23 Dec.</div>
-          </div>
-          
-          <!-- Blog Content -->
-          <p class="para1">
-            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          </p>
-          
-          <!-- Link to Full Post -->
+    <section>
+      <div class="blog-content">
+        <!-- Blog Card -->
+        <div class="box1">
+          <img src="Rectangle 15.png" class="image1" />
+          <div class="info-container">
+            <!-- Post Heading -->
+            <p class="row1">Other post heading sample text...</p>
+
+            <!-- Date and Author Information -->
+            <div class="date-info">
+              <div class="left-info">Written Name</div>
+              <div class="right-info">23 Dec.</div>
+            </div>
+
+            <!-- Blog Content -->
+            <p class="para1">
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            </p>
+
+            <!-- Link to Full Post -->
             <p class="see"><a>See Full</a></p>
+          </div>
         </div>
-      </div>
-
-  
 
         <div class="box2">
           <img src="Rectangle 15.png" class="image2" />
@@ -120,7 +122,8 @@
               <div class="right-info">23 Dec.</div>
             </div>
             <p class="para2">
-              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua."
             </p>
             <p class="see2"><a>See Full</a></p>
           </div>
@@ -135,14 +138,14 @@
               <div class="right-info">23 Dec.</div>
             </div>
             <p class="para3">
-              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua."
             </p>
             <p class="see3"><a>See Full</a></p>
           </div>
         </div>
       </div>
     </section>
-
 
     <!-- Footer -->
     <footer>
