@@ -441,8 +441,11 @@ nav {
     width: 93vh;
     margin-inline: 30px;
   }
+  .search-bar{
+    width: 70vh;
+  }
   .search-bar>input{
-    width: 20vh;
+    width: 10vh;
   }
   .search-bar>button{
     width: 10vh;
