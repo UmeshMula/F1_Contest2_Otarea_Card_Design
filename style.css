@@ -325,7 +325,7 @@ nav {
     flex-direction: column;
   }
   nav {
-    width: 100%;
+    width: 100vh;
     box-shadow: none;
   }
   .f-img {
@@ -368,7 +368,7 @@ nav {
   }
   .hero{
     margin-inline: 30px;
-    width: 100vh;
+    width: 97vh;
   }
   .latest-blog{
     width: 93vh;
@@ -376,7 +376,6 @@ nav {
   }
   .card-img>img{
     width: 80vh;
-    height: 50vh;
   }
   .card {
     flex-direction: column;
@@ -387,10 +386,10 @@ nav {
     margin-right: 20px;
   }
   .blog-content{
-    width: 80vh;
+    width: 96vh;
   }
   .footer{
-    width: 100vh;
+    width: 96vh;
   }
 }
 
@@ -442,28 +441,4 @@ nav {
     width: 93vh;
     margin-inline: 30px;
   }
-  /* .blog-img{
-    width: 50vw;
-  } */
-  /* .blog-img>img{
-    width: 61vw;
-  } */
-  /* .search-bar{
-    width: 80%;
-  }
-  .text1{
-    align-items: center;
-  }
-  .text2{
-    align-items: center;
-  }
-  .text3{
-    align-items: center;
-  }
-  .footer-button{
-    align-items: center;
-    font-size: 15px;
-    justify-content: center;
-
-  } */
 }
