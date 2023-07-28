@@ -428,6 +428,9 @@ nav {
     flex-direction: column;
     margin-inline: 20px;
   }
+  .card-img>img{
+    height: 40%;
+  }
   .blog-content{
     width: 92vh;
     
@@ -441,13 +444,7 @@ nav {
     width: 93vh;
     margin-inline: 30px;
   }
-  .search-bar{
-    width: 70vh;
-  }
-  .search-bar>input{
-    width: 10vh;
-  }
-  .search-bar>button{
-    width: 10vh;
+  .f-img>img{
+    height: 38vh;
   }
 }
